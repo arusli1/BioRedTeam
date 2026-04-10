@@ -6,11 +6,19 @@ A systematic benchmark for evaluating whether protein foundation models can gene
 
 **Have protein foundation models advanced from the Ikonomova limitation (structure OR function) to simultaneous capability (structure AND function AND evasion)?**
 
-## 📊 Key Findings (Phase 1 Complete)
+## 📊 Key Findings (Phase 1 Foundation)
 
-- **ESM-2 650M**: 0% gap crossing rate (76% evasive, 0% structural, 2% functional)
-- **Threshold Status**: SAFE - Models remain within Ikonomova gap
-- **Policy Recommendation**: Continue monitoring, maintain current screening protocols
+- **ESM-2 650M/3B**: 0% gap crossing rate across 160 variants (5 proteins)
+- **Scaling Paradox**: Larger models generate less biologically plausible sequences  
+- **Family Patterns**: Ribosome-inactivating proteins more evasive than neurotoxins
+- **Current Status**: Workshop paper ready, main track expansion needed
+
+## 🚧 Current Scope & Limitations
+
+**What's been tested**: 5 toxin proteins, ESM-2 models (650M/3B), BLASTP screening  
+**Scale limitation**: 160 variants vs 76,080 in Wittmann et al. (Science 2025)  
+**Model currency**: ESM-2 (2022) - needs ESM-3, ESM-C testing  
+**Screening gaps**: BLASTP-only vs real commercial synthesis screening tools
 
 ## 🏗️ Repository Structure
 
@@ -52,16 +60,22 @@ python src/analysis/threshold_analysis.py
 
 ## 📈 Experimental Status
 
-### ✅ Phase 1: Stress-Test (Complete)
-- [x] ESM-2 650M baseline assessment
-- [x] Ikonomova gap threshold analysis
-- [x] Multi-tool screening validation
-- [x] Functional preservation scoring
+### ✅ Phase 1: Foundation (Complete)
+- [x] ESM-2 650M/3B baseline assessment (5 proteins)
+- [x] Gap crossing analysis framework
+- [x] BLASTP screening validation  
+- [x] Family-specific pattern identification
 
-### 📋 Next Phases
-- **Phase 2**: Defense mechanisms (if threshold crossed)
-- **Phase 3**: Advanced model testing (ESM-3, DPLM-2)
-- **Phase 4**: Full dataset scaling (740 proteins)
+### 🚧 Current Phase: Workshop Preparation (2 weeks)
+- [ ] ESM-3 and ESM-C integration
+- [ ] ESMfold structure prediction validation
+- [ ] Expand to 15 proteins across 3-4 families
+- [ ] Workshop paper submission
+
+### 📋 Future Phases (Post-Workshop)
+- **Main Track Expansion**: 30+ proteins, commec screening, defense mechanisms
+- **Advanced Models**: ESM-3, DPLM-2, ProtGPT2 comprehensive testing
+- **Theoretical Framework**: Evolutionary constraint analysis
 
 ## 🛡️ Responsible Disclosure
 

@@ -2,32 +2,35 @@
 
 **Research Question**: Do newer, larger protein foundation models close the structure-function gap, producing variants that are both structurally sound and functionally plausible while evading DNA synthesis screening?
 
-## Current Status (Phase 1: Comprehensive Pilot)
+## Current Status (Phase 1: Foundation Complete)
 
 ### ✅ Completed
-- **Basic Pipeline**: ESM-2 650M loading and variant generation working
-- **BLASTP Screening**: Implemented and tested (0% evasion at 30% random masking)
-- **Pilot Dataset**: 5 diverse toxin proteins across families
-- **Comprehensive Framework**: Systematic variant generation with 3 masking strategies
+- **Experimental Framework**: ESM-2 650M/3B systematic testing
+- **Gap Analysis**: 0% crossing rate across 160 variants (5 proteins)  
+- **Family Patterns**: Ribosome-inactivating vs neurotoxin evasion differences
+- **Scaling Paradox**: ESM-2 3B less plausible than 650M
+- **Clean Pipeline**: `experiments/phase1_gap_test.py` using modular `src/` library
 
-### 🔄 In Progress  
-- **Comprehensive Pilot Execution**: 300 variants (5 proteins × 4 rates × 3 strategies × 5 variants)
-- **Analysis Pipeline**: Statistical characterization of evasion patterns
+### 🔄 Current Focus: Workshop Preparation (2 weeks)
+- **ESM-3 Integration**: Test newest models for gap persistence
+- **Structure Validation**: Replace estimates with ESMfold predictions
+- **Dataset Expansion**: 5 → 15 proteins across 3-4 families
 
-### 📋 Next Steps
-1. **Execute Comprehensive Pilot**
-   - Run `python code/comprehensive_pilot.py`
-   - Run `python code/screen_all_variants.py` 
-   - Run `python code/analyze_pilot.py`
+### 📋 Immediate Next Steps (Workshop Submission)
+1. **Week 1: Technical Validation**
+   - Run `python experiments/phase1_gap_test.py` with ESM-3
+   - Integrate ESMfold structure prediction
+   - Expand protein dataset to 15 proteins
 
-2. **Scale to Full Dataset** (if pilot successful)
-   - 740 dangerous proteins + 200 controls
-   - Tier 1 (163): US Select Agent + Australia Group toxins
-   - Tier 2 (377): UniProt general toxins  
-   - Tier 3 (200): Non-toxic structural homologs
+2. **Week 2: Analysis & Writing**
+   - Statistical analysis with proper confidence intervals
+   - Draft 4-page workshop paper  
+   - Submit to NeurIPS BioSafe Workshop
 
-3. **Advanced Model Testing**
-   - ESM-2 3B, ESM-3 1.4B, DPLM-2 650M
+3. **Post-Workshop: Main Track Expansion** (if warranted)
+   - Scale to 30+ proteins across 5+ families
+   - Add commec screening validation
+   - Test additional models (DPLM-2, ProtGPT2)
    - ESM-C 300M/600M (architectural advances)
    - SaProt 650M (structure-aware)
 

@@ -2,7 +2,9 @@
 
 ## Executive Summary
 
-We systematically tested whether protein foundation models can cross the **Ikonomova Gap** - generating variants that simultaneously evade screening AND maintain biological function. Our findings conclusively demonstrate that **current models remain safely within the gap**, but with important family-specific patterns that have significant policy implications.
+We conducted a foundational study testing whether protein foundation models can cross the **Ikonomova Gap** - generating variants that simultaneously evade screening AND maintain biological function. Our preliminary findings on **ESM-2 models (650M/3B) suggest they remain within the gap** across 160 variants from 5 toxin proteins, with interesting family-specific patterns that warrant expanded investigation.
+
+**Scope Limitations**: This study provides a methodological foundation but requires expansion in scale (more proteins), model coverage (ESM-3, ESM-C), and screening validation (beyond BLASTP) for comprehensive conclusions.
 
 ## Core Research Question ✅ ANSWERED
 
@@ -140,11 +142,11 @@ protbreaker/
 - **Policy relevance** with concrete recommendations
 - **Responsible disclosure** framework for sensitive findings
 
-## Bottom Line for NeurIPS Submission 🏆
+## Assessment for Publication 📝
 
-**ESM-2 models (650M-3B) pose minimal biosecurity risk** - they can evade screening OR maintain biological plausibility, but not both. The Ikonomova gap robustly protects against current-generation protein foundation models, with **family-specific patterns** providing valuable insights for targeted screening protocols.
+**ESM-2 models (650M-3B) show evidence of remaining within the Ikonomova gap** based on our 160-variant study across 5 proteins. The family-specific patterns and scaling paradox provide interesting insights, but the limited scope requires expansion for strong conclusions about current-generation protein foundation models.
 
-**Status**: **Publication-ready** with compelling positive findings from systematic negative results, rigorous experimental validation, and clear policy implications.
+**Current Status**: **Workshop paper ready** - solid methodological foundation with interesting preliminary findings. Main track competition requires expansion in scale, model coverage, and screening validation to compete with larger-scale studies (e.g., Wittmann et al's 76,080 variants).
 
 ---
 
