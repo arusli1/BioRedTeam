@@ -4,7 +4,7 @@
 
 We conducted a foundational study testing whether protein foundation models can cross the **Ikonomova Gap** - generating variants that simultaneously evade screening AND maintain biological function. Our preliminary findings on **ESM-2 models (650M/3B) suggest they remain within the gap** across 160 variants from 5 toxin proteins, with interesting family-specific patterns that warrant expanded investigation.
 
-**Scope Limitations**: This study provides a methodological foundation but requires expansion in scale (more proteins), model coverage (ESM-3, ESM-C), and screening validation (beyond BLASTP) for comprehensive conclusions.
+**Updated Scope**: Enhanced experimental design addresses identified limitations through comprehensive PI feedback integration - ESM-C architectural comparison, extended masking to 85%, enhanced functional assessment, and multi-tool DNA-level screening validation.
 
 ## Core Research Question ✅ ANSWERED
 

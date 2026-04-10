@@ -174,11 +174,12 @@ protbreaker/
 
 ## **🔮 Next Steps**
 
-### **Immediate (2 weeks): Workshop Submission**
-- Test ESM-3 and ESM-C on existing protein set
-- Replace TM-score estimates with ESMfold predictions  
-- Expand to 15 proteins across 3-4 families
-- Submit to NeurIPS BioSafe Workshop
+### **Immediate (3 weeks): Enhanced Workshop Submission**
+- Comprehensive plan addressing all PI feedback points
+- ESM-C architecture comparison + ESM-3 + extended masking to 85%
+- Enhanced functional assessment beyond TM-score (UniProt annotations)
+- 60 proteins across 4 families + multi-tool screening (commec DNA-level)
+- Evolutionary baselines + responsible disclosure framework
 
 ### **Medium-term (6-8 weeks): Main Track Expansion**  
 - Scale to 30+ proteins across 5+ families

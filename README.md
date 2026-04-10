@@ -4,7 +4,9 @@ A systematic benchmark for evaluating whether protein foundation models can gene
 
 ## 🎯 Core Research Question
 
-**Have protein foundation models advanced from the Ikonomova limitation (structure OR function) to simultaneous capability (structure AND function AND evasion)?**
+**Do newer protein foundation models (ESM-C, ESM-3) close the structure-function gap that Ikonomova et al. found still exists with 2024-era tools?**
+
+**Ikonomova Gap**: AI-generated proteins can achieve structural similarity but fail to retain biological function in wet-lab assays (300 synthetic homologs tested).
 
 ## 📊 Key Findings (Phase 1 Foundation)
 
@@ -13,12 +15,12 @@ A systematic benchmark for evaluating whether protein foundation models can gene
 - **Family Patterns**: Ribosome-inactivating proteins more evasive than neurotoxins
 - **Current Status**: Workshop paper ready, main track expansion needed
 
-## 🚧 Current Scope & Limitations
+## 🔧 Enhanced Experimental Design
 
-**What's been tested**: 5 toxin proteins, ESM-2 models (650M/3B), BLASTP screening  
-**Scale limitation**: 160 variants vs 76,080 in Wittmann et al. (Science 2025)  
-**Model currency**: ESM-2 (2022) - needs ESM-3, ESM-C testing  
-**Screening gaps**: BLASTP-only vs real commercial synthesis screening tools
+**Models**: ESM-2 (650M/3B), ESM-C (300M/600M), ESM-3 Medium - architecture × scale matrix  
+**Scope**: 60 proteins across 4 families, 6,000 variants, extended to 85% masking (Simecek regime)  
+**Functional Assessment**: Beyond TM-score - active site preservation, UniProt annotations, binding sites  
+**Multi-Tool Screening**: DNA-level commec + BLASTP + HMMER + evolutionary baselines
 
 ## 🏗️ Repository Structure
 
@@ -66,11 +68,11 @@ python src/analysis/threshold_analysis.py
 - [x] BLASTP screening validation  
 - [x] Family-specific pattern identification
 
-### 🚧 Current Phase: Workshop Preparation (2 weeks)
-- [ ] ESM-3 and ESM-C integration
-- [ ] ESMfold structure prediction validation
-- [ ] Expand to 15 proteins across 3-4 families
-- [ ] Workshop paper submission
+### 🚧 Current Phase: Comprehensive Workshop Plan (3 weeks) 
+- [ ] ESM-C and ESM-3 integration with extended masking (up to 85%)
+- [ ] Enhanced functional assessment (UniProt annotations, active sites)
+- [ ] Multi-tool screening (DNA-level commec validation)
+- [ ] 60 proteins across 4 biological families, evolutionary baselines
 
 ### 📋 Future Phases (Post-Workshop)
 - **Main Track Expansion**: 30+ proteins, commec screening, defense mechanisms
