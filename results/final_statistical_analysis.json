@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "analysis_type": "comprehensive_phase1_statistics",
+    "experiments_analyzed": [
+      "gap_test_650m",
+      "gap_test_3b",
+      "masking_strategy",
+      "extended_protein",
+      "threshold_sensitivity"
+    ],
+    "total_experiments": 5
+  },
+  "gap_crossing_analysis": {
+    "total_variants": 

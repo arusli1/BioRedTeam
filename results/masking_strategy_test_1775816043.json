@@ -1,0 +1,1916 @@
+{
+  "metadata": {
+    "experiment": "masking_strategy_test",
+    "model": "esm2_650m",
+    "strategies": [
+      "random",
+      "conservation",
+      "surface"
+    ],
+    "masking_rates": [
+      0.8,
+      0.85,
+      0.9
+    ],
+    "variants_per_config": 5,
+    "timestamp": 1775816043
+  },
+  "strategies": {
+    "random": {
+      "80pct": {
+        "mask_rate": 0.8,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.23088923556942278,
+              "tm_score": 0.2887555492297391,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2887555492297391,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.23712948517940718,
+              "tm_score": 0.2923779509007333,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2923779509007333,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.23556942277691106,
+              "tm_score": 0.29146782741582145,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.29146782741582145,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.22776911076443057,
+              "tm_score": 0.28696254205504623,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28696254205504623,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.23556942277691106,
+              "tm_score": 0.29146782741582145,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.29146782741582145,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.2545683679899181,
+              "tm_score": 0.30275350490786634,
+              "asps": 0.5,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.30275350490786634,
+                "asps": 0.5,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.2432262129804663,
+              "tm_score": 0.2959633839071294,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2959633839071294,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.2526780088216761,
+              "tm_score": 0.30161110068006725,
+              "asps": 0.3333333333333333,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.30161110068006725,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.24511657214870824,
+              "tm_score": 0.2970842989381122,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2970842989381122,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.2463768115942029,
+              "tm_score": 0.2978339825825644,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2978339825825644,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 0,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 0.0,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      },
+      "85pct": {
+        "mask_rate": 0.85,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.20124804992199688,
+              "tm_score": 0.27222499295641117,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27222499295641117,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.18876755070202808,
+              "tm_score": 0.2656116558418039,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2656116558418039,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.18252730109204368,
+              "tm_score": 0.26238522350218474,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26238522350218474,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.19032761310452417,
+              "tm_score": 0.2664267016802378,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2664267016802378,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.18876755070202808,
+              "tm_score": 0.2656116558418039,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2656116558418039,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.2123503465658475,
+              "tm_score": 0.2782833582745609,
+              "asps": 0.3333333333333333,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2782833582745609,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.2028985507246377,
+              "tm_score": 0.2731153232517138,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2731153232517138,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.2003780718336484,
+              "tm_score": 0.2717571657726389,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2717571657726389,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.203528670447385,
+              "tm_score": 0.273456186887392,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.273456186887392,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.20541902961562697,
+              "tm_score": 0.2744819429076095,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2744819429076095,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 8,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 0.8,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      },
+      "90pct": {
+        "mask_rate": 0.9,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.14664586583463338,
+              "tm_score": 0.24492568659502367,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24492568659502367,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.13260530421216848,
+              "tm_score": 0.2386305891252889,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2386305891252889,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1482059282371295,
+              "tm_score": 0.24564448912898756,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24564448912898756,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.1497659906396256,
+              "tm_score": 0.2463670848600625,
+              "asps": 0.42857142857142855,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2463670848600625,
+                "asps": 0.42857142857142855,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.14508580343213728,
+              "tm_score": 0.24421069738193862,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24421069738193862,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.166351606805293,
+              "tm_score": 0.25427883118132155,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25427883118132155,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.15689981096408318,
+              "tm_score": 0.24971914109108093,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24971914109108093,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1543793320730939,
+              "tm_score": 0.24852591391100315,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24852591391100315,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.1638311279143037,
+              "tm_score": 0.25304990601360583,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25304990601360583,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.15563957151858854,
+              "tm_score": 0.24912131977297575,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24912131977297575,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 9,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 0.9,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      }
+    },
+    "conservation": {
+      "80pct": {
+        "mask_rate": 0.8,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.2121684867394696,
+              "tm_score": 0.27818281535362854,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27818281535362854,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.20748829953198128,
+              "tm_score": 0.2756102030168558,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2756102030168558,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.20436817472698907,
+              "tm_score": 0.2739111375052242,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2739111375052242,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.21528861154446177,
+              "tm_score": 0.2799137613432513,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2799137613432513,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.21372854914196568,
+              "tm_score": 0.2790467090093921,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2790467090093921,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.22684310018903592,
+              "tm_score": 0.28643275338291435,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28643275338291435,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.22495274102079396,
+              "tm_score": 0.2853545979545755,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2853545979545755,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.22432262129804661,
+              "tm_score": 0.28499621645082346,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28499621645082346,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.2262129804662886,
+              "tm_score": 0.2860728671211635,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2860728671211635,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.22495274102079396,
+              "tm_score": 0.2853545979545755,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2853545979545755,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 0,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 0.0,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      },
+      "85pct": {
+        "mask_rate": 0.85,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1622464898595944,
+              "tm_score": 0.2522820913590912,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2522820913590912,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.15756630265210608,
+              "tm_score": 0.2500362787611554,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2500362787611554,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1622464898595944,
+              "tm_score": 0.2522820913590912,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2522820913590912,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.1606864274570983,
+              "tm_score": 0.25152983831412146,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25152983831412146,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.1606864274570983,
+              "tm_score": 0.25152983831412146,
+              "asps": 0.2857142857142857,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25152983831412146,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.18777567737870196,
+              "tm_score": 0.2650952040918311,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2650952040918311,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.18966603654694392,
+              "tm_score": 0.2660806551724988,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2660806551724988,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.18462507876496534,
+              "tm_score": 0.26346379338720527,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26346379338720527,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.18273471959672338,
+              "tm_score": 0.26249159272842953,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26249159272842953,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.18651543793320732,
+              "tm_score": 0.2644409840098978,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2644409840098978,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 3,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 0.3,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      },
+      "90pct": {
+        "mask_rate": 0.9,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.11232449297971919,
+              "tm_score": 0.23011630504118225,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23011630504118225,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.11856474258970359,
+              "tm_score": 0.23266053775701323,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23266053775701323,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.11544461778471139,
+              "tm_score": 0.2313798253641425,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2313798253641425,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.10920436817472699,
+              "tm_score": 0.2288702139761712,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2288702139761712,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.11544461778471139,
+              "tm_score": 0.2313798253641425,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2313798253641425,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.13988657844990549,
+              "tm_score": 0.2418556468980787,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2418556468980787,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.13988657844990549,
+              "tm_score": 0.2418556468980787,
+              "asps": 0.3333333333333333,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2418556468980787,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.14177693761814744,
+              "tm_score": 0.24270693205150518,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24270693205150518,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.13988657844990549,
+              "tm_score": 0.2418556468980787,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2418556468980787,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.13988657844990549,
+              "tm_score": 0.2418556468980787,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2418556468980787,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 9,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 0.9,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      }
+    },
+    "surface": {
+      "80pct": {
+        "mask_rate": 0.8,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.22152886115444617,
+              "tm_score": 0.28341332999679814,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28341332999679814,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.21840873634945399,
+              "tm_score": 0.2816572963074291,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2816572963074291,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.22152886115444617,
+              "tm_score": 0.28341332999679814,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28341332999679814,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.22308892355694226,
+              "tm_score": 0.28429600618560336,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28429600618560336,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.2121684867394696,
+              "tm_score": 0.27818281535362854,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27818281535362854,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.21739130434782608,
+              "tm_score": 0.28108737462959255,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28108737462959255,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.21172022684310018,
+              "tm_score": 0.2779351746433426,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2779351746433426,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.2123503465658475,
+              "tm_score": 0.2782833582745609,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2782833582745609,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.2142407057340895,
+              "tm_score": 0.27933100797177424,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27933100797177424,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.21298046628859482,
+              "tm_score": 0.27863205888269205,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27863205888269205,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 10,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 1.0,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      },
+      "85pct": {
+        "mask_rate": 0.85,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1684867394695788,
+              "tm_score": 0.25532718521667885,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25532718521667885,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.1856474258970359,
+              "tm_score": 0.26399166125333784,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26399166125333784,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.18252730109204368,
+              "tm_score": 0.26238522350218474,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26238522350218474,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.1731669266770671,
+              "tm_score": 0.25764842026984586,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25764842026984586,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.18876755070202808,
+              "tm_score": 0.2656116558418039,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2656116558418039,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1713925645872716,
+              "tm_score": 0.2567646484955088,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2567646484955088,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.17328292375551355,
+              "tm_score": 0.25770635426601857,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25770635426601857,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1695022054190296,
+              "tm_score": 0.2558281217406054,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2558281217406054,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.17265280403276623,
+              "tm_score": 0.25739187865452917,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25739187865452917,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.1688720856962823,
+              "tm_score": 0.25551710201192074,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25551710201192074,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 10,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 1.0,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      },
+      "90pct": {
+        "mask_rate": 0.9,
+        "proteins": {
+          "ricin_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.13884555382215288,
+              "tm_score": 0.2413892877307714,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2413892877307714,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.12480499219968799,
+              "tm_score": 0.23527263653279515,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23527263653279515,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1372854914196568,
+              "tm_score": 0.24069367862327382,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24069367862327382,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.13260530421216848,
+              "tm_score": 0.2386305891252889,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2386305891252889,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.12168486739469579,
+              "tm_score": 0.23395821445996393,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23395821445996393,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "botox_a": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1266540642722117,
+              "tm_score": 0.23605941551511164,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23605941551511164,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.12350346565847511,
+              "tm_score": 0.23472231749609784,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23472231749609784,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.13043478260869565,
+              "tm_score": 0.23768600618337124,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23768600618337124,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.13169502205419029,
+              "tm_score": 0.2382334973301513,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2382334973301513,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.12980466288594833,
+              "tm_score": 0.2374132492632954,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2374132492632954,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "total_variants": 10,
+          "evasive_variants": 10,
+          "functional_variants": 0,
+          "structural_variants": 0,
+          "gap_crossing": 0,
+          "evasion_rate": 1.0,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_crossing_rate": 0.0
+        }
+      }
+    }
+  }
+}

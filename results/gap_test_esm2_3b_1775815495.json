@@ -1,0 +1,2231 @@
+{
+  "metadata": {
+    "model": "esm2_3b",
+    "masking_rates": [
+      0.85,
+      0.9
+    ],
+    "variants_per_config": 3,
+    "timestamp": 1775815495
+  },
+  "proteins": {
+    "ricin_a": {
+      "name": "Ricin A chain",
+      "length": 641,
+      "original_sequence": "MTTNIYKRWGETIIHVLHGETKYPFVKKWWSFTKSITILGLKEEAVKIFLQSDLVFLSIKSQRPIKQNWWSFTGIEKLWSWSNGDSLKLYSHQHLSHGFVLLHSYIDTMNDEQLLNRNLCALVSEAYLLGGQVEFGLTQMLKIGIRSHLYVDNTPQTLQIVVAKCDKQDLIKLKKWGDGIIEKNLAKKLQFFHSERRIIKELRSQEPQYICDMRQNWNVFRAYRSNQLVQVDQAVDQLKYDHPVEFIFDNIYEQLRQTNYEISLVDTAVLVADFSEGKQVYIYISKKRVPDLMHHYSLNKFYQNLKNITKAQVLHNIQQDLVDEAEKGRVTTQQLGQTVLNSDLGLVHESEIIGSWSHQPNVPLLFSSAELKSSSFCDQLTTDTLYSNLYSHLVLVLKFDCEEEYIISQEVAYNIYLYKQDYLNFSLFKGKLNYQNTETKYLVKDKTTKDVITQGNQDGPQVEMVFQSSTKDQFFSLDRSGLTNPYHSLWSFNGLGHVLNGVQMLHTILDNILNVEQDPKLNLGHDYLSNGLSSVHVKIQQLNSSYISQYGYDNIMSAYFKTGKSSLLFHDQSIMQKPLLVHIMRSLFNQFPQFNVGNQGIMGSLCKYLRVFGLLQHQNVDFIILHTHLKRLLPSGQKDFT",
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.2857142857142857,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "ricin_a",
+                    "percent_identity": 22.382,
+                    "alignment_length": 487,
+                    "evalue": 2.3e-07,
+                    "bitscore": 43.5
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "ricin_a",
+                      "percent_identity": 22.382,
+                      "alignment_length": 487,
+                      "evalue": 2.3e-07,
+                      "bitscore": 43.5
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "ricin_a",
+                    "percent_identity": 22.382,
+                    "alignment_length": 487,
+                    "evalue": 2.3e-07,
+                    "bitscore": 43.5
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "ricin_a",
+                      "percent_identity": 22.382,
+                      "alignment_length": 487,
+                      "evalue": 2.3e-07,
+                      "bitscore": 43.5
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.2857142857142857,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.14285714285714285,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "ricin_a",
+                    "percent_identity": 24.236,
+                    "alignment_length": 491,
+                    "evalue": 2.98e-09,
+                    "bitscore": 49.7
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "ricin_a",
+                      "percent_identity": 24.236,
+                      "alignment_length": 491,
+                      "evalue": 2.98e-09,
+                      "bitscore": 49.7
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.14285714285714285,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.14285714285714285,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.14285714285714285,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        }
+      }
+    },
+    "botox_a": {
+      "name": "Botulinum neurotoxin A (truncated)",
+      "length": 1587,
+      "original_sequence": "MKILLNVNKRGNKWEVLPSTDTPKKGYTEKIQEHIKNKMSKYVDMDKNKLDIMKSTLSVEQVNIQVLHEVTDVSIEPDKKAIKKQTKNVNVQSIRYIDKYLGKLNQNGKPNYFFAFSGYIQTINQYSVEVQRVYSPAQSDVSLLSINSSLKDKLDKLLNMKDLNTDVINFLNRNKNNNAKYVKENNKYSYKSEKGKIYKGFNKRWESDIAIYPNEFVDEPEKQPGASLVKDYYIKFNMNKKDYYLLKDNDVLMLVHCDSKKELEDISKEVKNMVKDNYLEKEYKNGTKLINYALVDLKVKFLYASLRDIKCFNYYIIRGIKLNKAVQIQRYGMRVITDNEFYDGIKKRSDGWDGKDKGQKQLTGGMQKDLVDYTYGTLPIVNMVSDQINGINSLQGMRLDEIGPKYDRCDTGIKCSGSYALRNTKINDKRDVIAIVACIQWKTKAQDQIAYEMKQAIGIRLLYDTDNVVDMAKNDFKNSQYSKLYNDILVNMDKINNDTSILSEQIKLYTDRDLVSQEKGDLFSLQDTEKDGRIKGSAYEMQGDFSIDTILYKDKCKVKQVSKEKQSKRRDKLAEEEVDFFGDVGKVFKLYKDGQDIVQQDNLLAEVAPGKIDKQILNTFNKGFNYTEKIVDDTSSKLAQLESVIEQVVKSRKLLSSADQHSRLIIVKAEDDSYGNSKEQTGVQLVNFNKFADYPVQAVSKLLKQHPPQCYIVYKNKFRLDGMFDNSSKSVDILQNDFITYGASYGKGCDSKDTKQVAKLIDVSDVFSLAKATYLMNKLRLHLDTLKAMTEVDGSIRNLYLGSVGGVTQGVKQNFNLKEYFGQALENLDKYGLDTVDRVAYINNFAKDEIDDYWNKTDNDIDLLTSQKGSSDLSLSRTLYDKEMDTNQYMGDLAFQPKMKQIKEAIDQNGFMYKNFGNDDVFKAFKKSDMLPFINKGVDILYNGLNLAESIDNFEEQHNNKIQILKFDSQAELFNYYPLKTLKSFKTSSDAKVQGDDKQLLQTLLGLITQAYNVPNKEVLDTVDNAKYAIHLHVSRLFKQSLVSMDTLLHDKQVMRNLSEVVNKDHPSKTGLSNVYDHFNLITDSNVHSIGRQLDLLLYNYQGKYRLNQYRIIHKDAIHSNEYRYLVTDYVRYTPDYKAFLLYVANDYLVNVFQNVMPQNSLRVRQVFNLVTLNMMAIARRYVEYQAPALNILRAIQNQHTNYQMKTGTKEIDDIKGLNKLAEAYGITDYQLRQIDLQKNFINDLDYDGKLSGVFKLAKDLGAATQQLLQHKDLVQNGFTLYIKGGSSSGEKQTMIQLEFRHKGFGEAEQSLSPKMLLPYRQLVEQVADKLYGNTKSESNTGTSQNLKELKRFMIEQRSLQRDTDAGTMTYKLIVFNYRKEQIMMLKKEKQNMLQDLIPYLLEKKMNQLLLALVYDELLQYLVNNKSVDKQMQIMKDFRNDQLALDIYLKDLQKNVDFLKLLEEHIEKVDADLYNSKKLMVYLDGLLKSKKQNMTNPDMKTRVGFLLGFLTNDLGTVTKEFGGGNIQLVELDYLQLDYTEQKSKYNTVDMGKLKLQQKVRFNKSKQSSQKRRIQEEKKLAEGAVISN",
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "botox_a",
+                    "percent_identity": 22.539,
+                    "alignment_length": 772,
+                    "evalue": 4.57e-11,
+                    "bitscore": 57.4
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "botox_a",
+                      "percent_identity": 22.539,
+                      "alignment_length": 772,
+                      "evalue": 4.57e-11,
+                      "bitscore": 57.4
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "botox_a",
+                    "percent_identity": 22.539,
+                    "alignment_length": 772,
+                    "evalue": 4.57e-11,
+                    "bitscore": 57.4
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "botox_a",
+                      "percent_identity": 22.539,
+                      "alignment_length": 772,
+                      "evalue": 4.57e-11,
+                      "bitscore": 57.4
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.3333333333333333,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "botox_a",
+                    "percent_identity": 23.941,
+                    "alignment_length": 472,
+                    "evalue": 1.31e-10,
+                    "bitscore": 55.8
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "botox_a",
+                      "percent_identity": 23.941,
+                      "alignment_length": 472,
+                      "evalue": 1.31e-10,
+                      "bitscore": 55.8
+                    },
+                    {
+                      "target_id": "botox_a",
+                      "percent_identity": 25.54,
+                      "alignment_length": 278,
+                      "evalue": 7.4e-06,
+                      "bitscore": 40.4
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "botox_a",
+                    "percent_identity": 23.941,
+                    "alignment_length": 472,
+                    "evalue": 1.31e-10,
+                    "bitscore": 55.8
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "botox_a",
+                      "percent_identity": 23.941,
+                      "alignment_length": 472,
+                      "evalue": 1.31e-10,
+                      "bitscore": 55.8
+                    },
+                    {
+                      "target_id": "botox_a",
+                      "percent_identity": 25.54,
+                      "alignment_length": 278,
+                      "evalue": 7.4e-06,
+                      "bitscore": 40.4
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        }
+      }
+    },
+    "tetx": {
+      "name": "Tetanus toxin (truncated)",
+      "length": 1982,
+      "original_sequence": "MPNYIDKLATDKLLYSIYNQPQSQTISKIQIDKRDAVATARKKYEESVDVLNKKLIKQIDNQIKMYQFGNDINFNQNKLSYLDQDIQQLKQAMEKNINIQSKQELIKFYNVHDPLTFLSQDMKKINNIHLHIEELSQTVIKNLPTQVEGVLINELQKYENDEINDGIFKDNMDFWTKQISFDINSQIAKLIDNQIDYVVQNLQKHIKKQMLLKQSQSLSSKYHNKQENLKNKMAQIQNKFNAKLMKKIIEQYLQSEIETQINQSLDKQNNFKNISNNFKLNQDLIQNSLLDSQKQINQYLKEKEKEVQALVEEYLNNQMSLEMSIVKNITDLNKQLKELQIYNENKIALQKQTNQSLIKFIKQRQKQNNQFNLNIKELLQQLNNQLLKQEKQVLQNQINQQLEEYKEQFEELKKLLSEVAEKLKQQQLELQKVMLKYSQTLYQAYEKYKKTFEEFIKKNLQKKLLKRRYKYILTNLDNINDIAYDIIGKRVSKQTRVLRLTNFDGSILMSEQYLILNVDRMPYTFDILKQDLNQMEKYFDDQIKKKLEKTINNAKKYKVIYRNYNDQQLQHYINDFTNDTDSRINELKFYLKMTVIEYDRLAFMKLHDSQLKIIKTLQLRTTKNNKSYLNDIKLYNQDYSAIIKDMKQKIKSYFDQMKKEVYYAFETQFDQSSIRAIKEKQKELVDGLINMIKQHMDKLYNRMQKYHLKYIYKFKTTLKLIDNDINNNNIALDQKMINSQNEILMKNFNTINREIIKKGLNINQEVVDNLCQLQQILNDFNKKDLKLIEKQFSEFNLTDKTIDNLKTMLNYNNLTLINKIKIVKKEIENKKLINLQNQNQKQLLNMLKMQKDSKAFNDISMSIKQQILNEKLDIKQSMQNNQVGVHKMIDFKNEITEGLNQILDNKINSIAEKYDLTLVDRNRLGDDWTKDMKTKIEQLKAKIKQATVSLKIDKRTFQQIKNYIGNLYLKSSMNTRQLNQILEKLGEELKKENKQHLIDNNGLQQRNTQLDMNQQLQILSMSQNEGLQDNKILEQIYKLIEELLNSQQLSEMNAKQNQLMKGIDINLTGQLKQMIKEFQIEIKITTKELLNQEYIYQEDIRKQKFKINTTMISLTFENGYQKGLDKNDRNFTYLGQNLAYTNQIYAVIKNDERILSYGQKLVSYSNKKQQAVKALKDEQNIMDSTAFGEFYKPLNLEQKNSKYRSLYGNVQQFSKYTRFGSRQIVMDLHLSSFYNQKEVDQYDLLKYYLAFYNIGDSQMDPLDLRKYIFKVKRLMPQKVQRRSYTEKQEQQAYMNRMNKQQFSKLTKEKMLIEGNMKIGLGKLRQQQINDVMDQKALEVDKSNSYIKGYLKQDNNQWFFGFKDIAIIKQKLIDYRDFEDIKDQNHFYVKDGRIYYGYDTGMSEGMTDFQHLVINKMNTYEYYTRNPIIIVNQVSKYRHIDLRLISLPDNNVLTMNQASNKIYSYYINDYKKEGEKGALQHNINVRFKILSNYNYALRIRVNNEEIKHFKQKYNLQVFSSYLKDFYGLIKADFQSLDIINRNSILIIIGDPFVQDKSPQLDIQKIGQNVKSGIHKYSQDIEKFQKIKNDFGKLKAEDTTYDNKNNQINYALNKLSIDNSDTAYPSQHNIKGFIGNFISSFGGKKYNSEIIRYLSEKFGKYLNWISQNIIVNEQLQYAMKKFNDLQGYLLRGIIGKSGSTDHLILKYKKHEEQIDFIKNLDLNAKGKTDLGNNTKFINKYLTGALFSKSPTANIWAETVDQLEIYNEQNNLNTIIGQRKEINYQLIRNNGKLIIDKIKGNNLNRLISINNNNTGKELISRIKGAVIGGDDMTPLLYNNVYDLEKDPSNMPTTAIYKYDVFTKQNSDYTRNKPYDHFKDKSLVDTGLLQAYQRMAQYQLGKQGKELFSIREKLNEFLTLNIVDLNNYENINNKNTILNGSQLEAYKAYKKYNFENITDKMQEQSNKLLFGDNLGVLLLQLLLYQN",
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.16666666666666666,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.3333333333333333,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.192,
+                    "alignment_length": 739,
+                    "evalue": 4.38e-15,
+                    "bitscore": 71.2
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.192,
+                      "alignment_length": 739,
+                      "evalue": 4.38e-15,
+                      "bitscore": 71.2
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.192,
+                    "alignment_length": 739,
+                    "evalue": 4.38e-15,
+                    "bitscore": 71.2
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.192,
+                      "alignment_length": 739,
+                      "evalue": 4.38e-15,
+                      "bitscore": 71.2
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.192,
+                    "alignment_length": 739,
+                    "evalue": 4.38e-15,
+                    "bitscore": 71.2
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.192,
+                      "alignment_length": 739,
+                      "evalue": 4.38e-15,
+                      "bitscore": 71.2
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-10,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.192,
+                    "alignment_length": 739,
+                    "evalue": 4.38e-15,
+                    "bitscore": 71.2
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.192,
+                      "alignment_length": 739,
+                      "evalue": 4.38e-15,
+                      "bitscore": 71.2
+                    }
+                  ]
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.16666666666666666,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.929,
+                    "alignment_length": 833,
+                    "evalue": 8.86e-18,
+                    "bitscore": 80.1
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.929,
+                      "alignment_length": 833,
+                      "evalue": 8.86e-18,
+                      "bitscore": 80.1
+                    },
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 25.0,
+                      "alignment_length": 480,
+                      "evalue": 6.69e-10,
+                      "bitscore": 53.9
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.929,
+                    "alignment_length": 833,
+                    "evalue": 8.86e-18,
+                    "bitscore": 80.1
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.929,
+                      "alignment_length": 833,
+                      "evalue": 8.86e-18,
+                      "bitscore": 80.1
+                    },
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 25.0,
+                      "alignment_length": 480,
+                      "evalue": 6.69e-10,
+                      "bitscore": 53.9
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.929,
+                    "alignment_length": 833,
+                    "evalue": 8.86e-18,
+                    "bitscore": 80.1
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.929,
+                      "alignment_length": 833,
+                      "evalue": 8.86e-18,
+                      "bitscore": 80.1
+                    },
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 25.0,
+                      "alignment_length": 480,
+                      "evalue": 6.69e-10,
+                      "bitscore": 53.9
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-10,
+                  "best_hit": {
+                    "target_id": "tetx",
+                    "percent_identity": 22.929,
+                    "alignment_length": 833,
+                    "evalue": 8.86e-18,
+                    "bitscore": 80.1
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "tetx",
+                      "percent_identity": 22.929,
+                      "alignment_length": 833,
+                      "evalue": 8.86e-18,
+                      "bitscore": 80.1
+                    }
+                  ]
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        }
+      }
+    },
+    "latrotoxin": {
+      "name": "Alpha-latrotoxin (truncated)",
+      "length": 3063,
+      "original_sequence": "MKFLLLIISMLILGVIQAESIPSNIYQKFVNKDGTVCKAACGGSEGLQLMPKQRDQGWMSPQYLVVEKGNIGKMDKRQLLDKNFSLYKPYLVDDEKNYQFVFKDPGYHRIHLQHSQEQVNEIYSQIFDIVKNKQHLDEQTVDEIYLVDHLQEIAKQLSQYNEDIQIIKGQITQMQGLNLVYEHQASLQNSRDSLEQIEKMKDRLDALQEQYSEHQKLNQQIEEQLTKLMTGSDHWQWQSQLVGQINEENEYQELFSQVRQEVDQAKQELTNVNSAHKEHQGELSEHQKGLKGTKHKAEDLINSHQGEYTETRSDFEQILKSHQKHLSQHDTNTVQQQQNQDVAYKRKQEQNQKKGELNSKKNELYQKKVQLHFPNHKDALNQFLEEAQHYKLDHLKDGYKNLQKKQKQLNDKYQHQINDMKQQGVQEEQFNQLRDHQHQIKEHNQLDQTAQQGKELNENQKHYKENQQDLKAHQEHKTDINNHLKGQGKELKSHTIELQEHQKGQKTLNNEQKHQKDLYQHQKELQKRQNSLQEHKQGLQDLNTQQKHLNKGQKNLNQMKENLLEYNQELQSHQKTLKEIHQNQQKINKHGKTLNKHQKELQEMLKDLHTKSANQSHLHQKKLGSIQKHQKDLKAHEERLKKEKEQVNEHQKSINTQNQNQIKLQKEHQKGLKNHNQLQKANKELNEQQKDLQENQKSIQAIYSRMTEKRKQLHQHLKGLQKEHQKDLQEHNKTLQNNQKLQGQKEHQKALQEHYKHLIEYDQKLFQHQKKLKEHNAALTEKQSNLQKHQKGLKEYNKLQKQNEHLKKRQGSIKQHQKGLKGQNALLQKHQKDLEANQKALQNQQRNLQEHQKGFKQYAALLKKHQKDLQEYQKELKQNQTALQKHQKDLHKQNKLLQSHQKELQKYQKLLEQIQKSMQFNKTYIKEHQKGIQKRNEFLQKHQKALKKQNKTLSQQQKKLQNKQISIQSYKELLSKQNASLQKHQKDLKKQQKQLQKQNKGLNKHQKMLQEQNKLLEKQMKILNEQNGTLQKHQKDLKEQKELKKDQNSRSHKQKELKQNHSILQKHQKGLKEQNQLLQKQNSKISQHQGLLQAENQSLQKHQKELKQHNKLLQKHQKNLQNSNQGIQEYQKKLNENHSRLQKHQKGLKGQNKLLQKQQNILQNLQGTIQKHQKNLQDHYKEILQQSKILSKYQKKLQEHNQGLQKHQKDLQKQNKLQNHQKELSKHQKELQKHYKQLNKHNQRLQKYQKNLQKANKLLQNLQKKLFYQHKEMNENQKSIQKHQKGIQKHYKLLQKNQKNLRKDQKKIEQHQKELKDHYKLINKEQKLLQKHQKELQKNNKGLNQHQKKIQKRNKDLQKYQKELQKHNKILNKHQKELQKDQKRLQNQQKKLQKYQKNLQKRNQLQKNQKTIEKHQKELQKYQKGLKKHQKNLQNNQKGLNKYQKNLQKENQQIQKHQKELQKDQKRLAQQNSLNKHQKELQKHNKLRQKHQKNLQEYQKNLNDHQKKLQTHNKKLQKHQKELQKQNKTLQKYQKELQKHNKSLQKYNKELQKDQKQLEKQNQKLKQKQKNLKNNNQILQKHQKELEKQHKGLQKHQKELQEYQKALQKQNQKLQKHQKALEKDDKKIKQHLKELQEYQKDIKHQQKKIQKYQKELQKRNKILQRHQKTLQKNQKELQKYQKALQKHNQGLQKYQKELQKRSQLKNQQKKIQKGQKGLQKQNQKLQQYQKELQKRNQRLQKYQKELQKNNKILQKYQKELQQEQKTLQKYQKELQKINQKLQNNSRLQQYQKELQKRNKTLQKHQKEIQKHQKGLQEHQKNLQKYNQKLQKHQKDLNKSNQKLQKHQKALNLYNKKLQKHQKDLQKRNQSLQKYQKELQNNNKLKRQNQKLQENQKDLQKRQKELQKRNQKLQSYQKELQQNNKKIQKQNKELQKDQKDLQKNNKKLQEKQKELQKHQKRLQEYNKTFQKHQKDLQNYQKALQKQNKKLQKHQKEMQKHQKGLQKANQNLQKYQKELQKDNKKLQNQNQKLQKYQKELQENNKTLQKYQKELQKNNQGLQKQNKELQKYNKNLQKCCKKVQVKQWVDGGNTRLDGNCPQSSAGSLGLFTSQPFLPLTLWCTNVLKSGEGGTGRWVTSQPSEKYTSLNLLNVTGWQEAPKGGTSSAGKIFKCTSPTGLVTKPMCKYDVEYALCNSPEVNRLAQCDKVCSKDLGLQSAYWSCKQRGCTSIGQESGTPNGGPACTYIDSLRNNCGVQEAFCDSPAAGDTGYYTGVTGEKQIDVNGSAGIHVEQKGASIGPQCSGVGTTAVAMLTLHDSWTLMEKAGPKCSSNCILVSDDPAGPNEPEGDETVNYYFPPQFHYSFHQSGMCGACQYSQNGTFEIPQKGIGSGSYKNLQVTCQSEPRASLPQMILSGCGTASATVGSSTDTQCGHQFMKCWCTGDATFPSQGNHAGCEKVETKSNLQYDIPGGQMPSIITTNYFCCSSCKTSQTGHQGNLLCHLQMNFGCISCKKKQCKTDGFYNYTSCEHKFSCAGSKKCQLQCQCKADGTIFQDVQEKDGRPQPRRRKITLRSIVDRYSLHSPIFMCRSLAEQPGQYYWPYPQTFPRWEYVAYRPDSTPGAPFTVHGTQHFHPTTSRWVYGYDREGEYVGFYKMNRGIQLPSQYLHILFTDPVYRYDGPNKYLGPYPDLLDEKKLFSRKPEWIRGNTQSVSSGTSGRGDFNGTGSKEHQSIGGGNDPMAPHDIPFTQVQRTFYGQSAPTSVIVSQVHVPSPKMQGRPSEAATGFGDVNGLNVLPGTRKTPPKSPPVGVGTGPIQGSSLNTFSQRLDHTVHGYGSPPPGGGLVQLIFDNFEFSDQNHQRFNAYGGVQGRSNHGTVLSLGFSFLDAEGKGLKGGGAPALSSQVYTFSGGSHQGAGEVTFRGSSHAGQFSGFRGHGEYFFGGFSSGNSSISGSMTSSKLSSQSKQTNTSESKTRTGKGKQVVSQPPVTGSRGLGHQKEFGPPNFRWQDSFSGWTTTFATSSTAIIPNAGTFCGSLKDLKSSKVEFVQKQKQRNRRFPEIPRRRKKGVYG",
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.2,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 19.735,
+                    "alignment_length": 2716,
+                    "evalue": 6.71e-62,
+                    "bitscore": 226.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 19.735,
+                      "alignment_length": 2716,
+                      "evalue": 6.71e-62,
+                      "bitscore": 226.0
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 19.735,
+                    "alignment_length": 2716,
+                    "evalue": 6.71e-62,
+                    "bitscore": 226.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 19.735,
+                      "alignment_length": 2716,
+                      "evalue": 6.71e-62,
+                      "bitscore": 226.0
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 19.735,
+                    "alignment_length": 2716,
+                    "evalue": 6.71e-62,
+                    "bitscore": 226.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 19.735,
+                      "alignment_length": 2716,
+                      "evalue": 6.71e-62,
+                      "bitscore": 226.0
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-10,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 19.735,
+                    "alignment_length": 2716,
+                    "evalue": 6.71e-62,
+                    "bitscore": 226.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 19.735,
+                      "alignment_length": 2716,
+                      "evalue": 6.71e-62,
+                      "bitscore": 226.0
+                    }
+                  ]
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.99,
+                    "alignment_length": 1980,
+                    "evalue": 1.89e-55,
+                    "bitscore": 205.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.99,
+                      "alignment_length": 1980,
+                      "evalue": 1.89e-55,
+                      "bitscore": 205.0
+                    },
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 24.856,
+                      "alignment_length": 696,
+                      "evalue": 3.33e-08,
+                      "bitscore": 49.3
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.99,
+                    "alignment_length": 1980,
+                    "evalue": 1.89e-55,
+                    "bitscore": 205.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.99,
+                      "alignment_length": 1980,
+                      "evalue": 1.89e-55,
+                      "bitscore": 205.0
+                    },
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 24.856,
+                      "alignment_length": 696,
+                      "evalue": 3.33e-08,
+                      "bitscore": 49.3
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 2,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.99,
+                    "alignment_length": 1980,
+                    "evalue": 1.89e-55,
+                    "bitscore": 205.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.99,
+                      "alignment_length": 1980,
+                      "evalue": 1.89e-55,
+                      "bitscore": 205.0
+                    },
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 24.856,
+                      "alignment_length": 696,
+                      "evalue": 3.33e-08,
+                      "bitscore": 49.3
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.858,
+                    "alignment_length": 2190,
+                    "evalue": 1.18e-38,
+                    "bitscore": 149.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.858,
+                      "alignment_length": 2190,
+                      "evalue": 1.18e-38,
+                      "bitscore": 149.0
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.858,
+                    "alignment_length": 2190,
+                    "evalue": 1.18e-38,
+                    "bitscore": 149.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.858,
+                      "alignment_length": 2190,
+                      "evalue": 1.18e-38,
+                      "bitscore": 149.0
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.858,
+                    "alignment_length": 2190,
+                    "evalue": 1.18e-38,
+                    "bitscore": 149.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.858,
+                      "alignment_length": 2190,
+                      "evalue": 1.18e-38,
+                      "bitscore": 149.0
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-10,
+                  "best_hit": {
+                    "target_id": "latrotoxin",
+                    "percent_identity": 18.858,
+                    "alignment_length": 2190,
+                    "evalue": 1.18e-38,
+                    "bitscore": 149.0
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "latrotoxin",
+                      "percent_identity": 18.858,
+                      "alignment_length": 2190,
+                      "evalue": 1.18e-38,
+                      "bitscore": 149.0
+                    }
+                  ]
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.2,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        }
+      }
+    },
+    "abrin_a": {
+      "name": "Abrin A chain",
+      "length": 796,
+      "original_sequence": "ADALVVNQIDHRMEKLSTKTGKLIQYFKIQKPEKMLQLYKFYWVRNYPSIRFIDRFYLPTNKSEIVKAIDIQAKLDSRFHKMEKMNSLWFQGVSSSIFSIQYLENRTSFPAGPIPQIIALYQYFQVRTLNMTQRQIQFGFISGFRCFKEVRDDSVVNMGLNVISDITGNLQKLRSFSLSSLKQIEKTKTFTQHSILFKDTKKRVVTNEGVILNLLLFGNWIQFISSLNIRHRDPHEHFGTFKTRKHQTNNLITGIPTIKVHEVQFETQNIISFYGYSANYWNNVATVAHQVRSKQDYRISFVSGDNDYTLPQVGQVLNSGSYIDVIILKDLQAGIFDIKQVDGKMVFISTIINGINEKYYFDGRFISVISWGTPVDIFENKCSGMGNKGYVLSGLHISNIQRQMEYVQFGTKRTQMAAHLYNQYFGSFATLTGPNEEYRYIQRRISDRFRFIDRRLSQSIKGTFFMSSEGKYVSAEQYWNLHYAAYVDSCNFGGNFDLYIVKKDLAFSLSQNGTDADLRQDAGIMRFQELKFQRYPPEYYSRRWFFGVNSMIIDKLYKWSEEVSEQLGILEFDDPQRSDVQRTEKYLENQFGLLEIYHSDEQLIHWVNNQVYDAPQFPMREQATWLDLNIRQKTYFNIQEKVRTYHDQPAYQGKNKSRSRSDEAEVSDNSSAPRFHQADQLYKDRSPCDLVNEDFQQITIKDASVEVMHEKQNFGKQQVPMSSNVNFQEITRRSSLRLDYIPNGGSKGPIELYAKMQKSNHQFGLRNDMLMTDFCDVLPNVLSIQGISLFRSAEKQ",
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.2857142857142857,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 25.685,
+                    "alignment_length": 292,
+                    "evalue": 2.23e-09,
+                    "bitscore": 50.4
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 25.685,
+                      "alignment_length": 292,
+                      "evalue": 2.23e-09,
+                      "bitscore": 50.4
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 25.685,
+                    "alignment_length": 292,
+                    "evalue": 2.23e-09,
+                    "bitscore": 50.4
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 25.685,
+                      "alignment_length": 292,
+                      "evalue": 2.23e-09,
+                      "bitscore": 50.4
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 25.685,
+                    "alignment_length": 292,
+                    "evalue": 2.23e-09,
+                    "bitscore": 50.4
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 25.685,
+                      "alignment_length": 292,
+                      "evalue": 2.23e-09,
+                      "bitscore": 50.4
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.14285714285714285,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 24.236,
+                    "alignment_length": 491,
+                    "evalue": 4.88e-11,
+                    "bitscore": 55.8
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 24.236,
+                      "alignment_length": 491,
+                      "evalue": 4.88e-11,
+                      "bitscore": 55.8
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 0.001,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 24.887,
+                    "alignment_length": 442,
+                    "evalue": 8.1e-14,
+                    "bitscore": 64.7
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 24.887,
+                      "alignment_length": 442,
+                      "evalue": 8.1e-14,
+                      "bitscore": 64.7
+                    }
+                  ]
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-05,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 24.887,
+                    "alignment_length": 442,
+                    "evalue": 8.1e-14,
+                    "bitscore": 64.7
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 24.887,
+                      "alignment_length": 442,
+                      "evalue": 8.1e-14,
+                      "bitscore": 64.7
+                    }
+                  ]
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": false,
+                  "num_hits": 1,
+                  "threshold": 1e-07,
+                  "best_hit": {
+                    "target_id": "abrin_a",
+                    "percent_identity": 24.887,
+                    "alignment_length": 442,
+                    "evalue": 8.1e-14,
+                    "bitscore": 64.7
+                  },
+                  "all_hits": [
+                    {
+                      "target_id": "abrin_a",
+                      "percent_identity": 24.887,
+                      "alignment_length": 442,
+                      "evalue": 8.1e-14,
+                      "bitscore": 64.7
+                    }
+                  ]
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.14285714285714285,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.0,
+              "tm_score": 0.2,
+              "asps": 0.0,
+              "screening": {
+                "blastp_1e-03": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 0.001,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-05": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-05,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-07": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-07,
+                  "best_hit": null,
+                  "all_hits": []
+                },
+                "blastp_1e-10": {
+                  "tool": "blastp",
+                  "evaded": true,
+                  "num_hits": 0,
+                  "threshold": 1e-10,
+                  "best_hit": null,
+                  "all_hits": []
+                }
+              },
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "crossed_gap": 0,
+          "gap_rate": 0.0
+        }
+      }
+    }
+  },
+  "gap_analysis": {
+    "total_variants": 30,
+    "crossed_gap": 0,
+    "gap_crossing_rate": 0.0
+  }
+}

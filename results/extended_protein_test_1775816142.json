@@ -1,0 +1,1783 @@
+{
+  "metadata": {
+    "experiment": "extended_protein_test",
+    "model": "esm2_650m",
+    "masking_rates": [
+      0.85,
+      0.9
+    ],
+    "variants_per_protein": 8,
+    "timestamp": 1775816142
+  },
+  "proteins": {
+    "ricin_a": {
+      "name": "Ricin A chain",
+      "family": "ribosome_inactivating",
+      "tier": 1,
+      "length": 641,
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.20124804992199688,
+              "tm_score": 0.27222499295641117,
+              "asps": 0.42857142857142855,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27222499295641117,
+                "asps": 0.42857142857142855,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.19656786271450857,
+              "tm_score": 0.2697202218537379,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2697202218537379,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1856474258970359,
+              "tm_score": 0.26399166125333784,
+              "asps": 0.42857142857142855,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26399166125333784,
+                "asps": 0.42857142857142855,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.187207488299532,
+              "tm_score": 0.26479997104100067,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26479997104100067,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.2059282371294852,
+              "tm_score": 0.2747590612878682,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2747590612878682,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.1918876755070203,
+              "tm_score": 0.26724509475298136,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26724509475298136,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.1794071762870515,
+              "tm_score": 0.26079245797608763,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26079245797608763,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.1934477379095164,
+              "tm_score": 0.2680668214253956,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2680668214253956,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 8,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 1.0,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1310452418096724,
+              "tm_score": 0.2379508818433997,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2379508818433997,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.1310452418096724,
+              "tm_score": 0.2379508818433997,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2379508818433997,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1372854914196568,
+              "tm_score": 0.24069367862327382,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24069367862327382,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.13884555382215288,
+              "tm_score": 0.2413892877307714,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2413892877307714,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.13884555382215288,
+              "tm_score": 0.2413892877307714,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2413892877307714,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.1419656786271451,
+              "tm_score": 0.24279224104087926,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24279224104087926,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.13416536661466458,
+              "tm_score": 0.2393143065376259,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2393143065376259,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.1310452418096724,
+              "tm_score": 0.2379508818433997,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2379508818433997,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 8,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 1.0,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        }
+      }
+    },
+    "botox_a": {
+      "name": "Botulinum neurotoxin A (truncated)",
+      "family": "neurotoxin",
+      "tier": 1,
+      "length": 1587,
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.2066792690611216,
+              "tm_score": 0.2751684097402331,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2751684097402331,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.2148708254568368,
+              "tm_score": 0.27968125493221324,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27968125493221324,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.203528670447385,
+              "tm_score": 0.273456186887392,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.273456186887392,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.19848771266540643,
+              "tm_score": 0.27074413284627324,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27074413284627324,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.19848771266540643,
+              "tm_score": 0.27074413284627324,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27074413284627324,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.2091997479521109,
+              "tm_score": 0.2765476253141668,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2765476253141668,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.1947069943289225,
+              "tm_score": 0.2687325277359743,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2687325277359743,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.20226843100189035,
+              "tm_score": 0.2727749884973045,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2727749884973045,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 1,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 0.125,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.14492753623188406,
+              "tm_score": 0.24413837609431197,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24413837609431197,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.148708254568368,
+              "tm_score": 0.24587674548713248,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24587674548713248,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.15248897290485192,
+              "tm_score": 0.2476373556544666,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2476373556544666,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.15311909262759923,
+              "tm_score": 0.24793293334429195,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24793293334429195,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.14366729678638943,
+              "tm_score": 0.2435639115258113,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2435639115258113,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.14303717706364208,
+              "tm_score": 0.2432776213343397,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2432776213343397,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.15563957151858854,
+              "tm_score": 0.24912131977297575,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24912131977297575,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.14744801512287334,
+              "tm_score": 0.24529480381843163,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24529480381843163,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 7,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 0.875,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        }
+      }
+    },
+    "tetx": {
+      "name": "Tetanus toxin (truncated)",
+      "family": "neurotoxin",
+      "tier": 1,
+      "length": 1982,
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.19979818365287588,
+              "tm_score": 0.27144589658992235,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27144589658992235,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.21543895055499496,
+              "tm_score": 0.2799974832797542,
+              "asps": 0.3333333333333333,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2799974832797542,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.20282542885973764,
+              "tm_score": 0.2730758021679878,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2730758021679878,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.20080726538849647,
+              "tm_score": 0.2719878362131411,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2719878362131411,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.20282542885973764,
+              "tm_score": 0.2730758021679878,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2730758021679878,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.20837537840565085,
+              "tm_score": 0.27609560762768315,
+              "asps": 0.3333333333333333,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27609560762768315,
+                "asps": 0.3333333333333333,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.2129162462159435,
+              "tm_score": 0.2785964966364965,
+              "asps": 0.16666666666666666,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2785964966364965,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.20332996972754794,
+              "tm_score": 0.27334864257281943,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27334864257281943,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 4,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 0.5,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1503531786074672,
+              "tm_score": 0.24664003931981715,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24664003931981715,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.1503531786074672,
+              "tm_score": 0.24664003931981715,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24664003931981715,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1503531786074672,
+              "tm_score": 0.24664003931981715,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24664003931981715,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.1579212916246216,
+              "tm_score": 0.25020546780292374,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25020546780292374,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.16094853683148336,
+              "tm_score": 0.25165597180544635,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25165597180544635,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.15237134207870837,
+              "tm_score": 0.2475822447117948,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2475822447117948,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.15085771947527749,
+              "tm_score": 0.24687500145914762,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24687500145914762,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.15287588294651866,
+              "tm_score": 0.24781877589859688,
+              "asps": 0.16666666666666666,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24781877589859688,
+                "asps": 0.16666666666666666,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 8,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 1.0,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        }
+      }
+    },
+    "latrotoxin": {
+      "name": "Alpha-latrotoxin (truncated)",
+      "family": "neurotoxin",
+      "tier": 2,
+      "length": 3063,
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.21221025138752855,
+              "tm_score": 0.2782059015232723,
+              "asps": 0.4,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2782059015232723,
+                "asps": 0.4,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.20829252366960496,
+              "tm_score": 0.27605022615255204,
+              "asps": 0.4,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.27605022615255204,
+                "asps": 0.4,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.21906627489389488,
+              "tm_score": 0.28202632832599417,
+              "asps": 0.4,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28202632832599417,
+                "asps": 0.4,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.21808684296441397,
+              "tm_score": 0.28147684160024655,
+              "asps": 0.2,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28147684160024655,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.21025138752856676,
+              "tm_score": 0.2771255533237088,
+              "asps": 0.2,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2771255533237088,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.22135161606268364,
+              "tm_score": 0.28331324160039084,
+              "asps": 0.2,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.28331324160039084,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.21743388834476005,
+              "tm_score": 0.2811112016654823,
+              "asps": 0.2,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2811112016654823,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.2158015017956252,
+              "tm_score": 0.2801995037499061,
+              "asps": 0.6,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2801995037499061,
+                "asps": 0.6,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 0,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 0.0,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.16356513222331048,
+              "tm_score": 0.2529207609844507,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2529207609844507,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.16585047339209924,
+              "tm_score": 0.25403374391868394,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25403374391868394,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.16095331374469474,
+              "tm_score": 0.25165827152742515,
+              "asps": 0.2,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25165827152742515,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.15834149526607902,
+              "tm_score": 0.25040598428412864,
+              "asps": 0.0,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25040598428412864,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.17074763303950374,
+              "tm_score": 0.2564445513093383,
+              "asps": 0.2,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2564445513093383,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.16193274567417565,
+              "tm_score": 0.2521305139379271,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2521305139379271,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.16585047339209924,
+              "tm_score": 0.25403374391868394,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25403374391868394,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.16878876918054195,
+              "tm_score": 0.25547602132427505,
+              "asps": 0.2,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.25547602132427505,
+                "asps": 0.2,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 7,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 0.875,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        }
+      }
+    },
+    "abrin_a": {
+      "name": "Abrin A chain",
+      "family": "ribosome_inactivating",
+      "tier": 2,
+      "length": 796,
+      "masking_results": {
+        "85pct": {
+          "mask_rate": 0.85,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.18969849246231155,
+              "tm_score": 0.26609761761822315,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26609761761822315,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.18341708542713567,
+              "tm_score": 0.26284195234825103,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26284195234825103,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.18969849246231155,
+              "tm_score": 0.26609761761822315,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26609761761822315,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.1922110552763819,
+              "tm_score": 0.26741515410439215,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26741515410439215,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.1884422110552764,
+              "tm_score": 0.2654421070547625,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2654421070547625,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.19597989949748743,
+              "tm_score": 0.26940764082363533,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26940764082363533,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.19597989949748743,
+              "tm_score": 0.26940764082363533,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26940764082363533,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.19597989949748743,
+              "tm_score": 0.26940764082363533,
+              "asps": 0.14285714285714285,
+              "joint_evasion": false,
+              "gap_assessment": {
+                "evasive": false,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.26940764082363533,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 4,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 0.5,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        },
+        "90pct": {
+          "mask_rate": 0.9,
+          "variants": [
+            {
+              "variant_id": 1,
+              "sequence_identity": 0.1407035175879397,
+              "tm_score": 0.2422228378461233,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2422228378461233,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 2,
+              "sequence_identity": 0.14949748743718594,
+              "tm_score": 0.24624244912967477,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24624244912967477,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 3,
+              "sequence_identity": 0.1407035175879397,
+              "tm_score": 0.2422228378461233,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2422228378461233,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 4,
+              "sequence_identity": 0.14824120603015076,
+              "tm_score": 0.2456607873905769,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2456607873905769,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 5,
+              "sequence_identity": 0.12939698492462312,
+              "tm_score": 0.23723713184234352,
+              "asps": 0.0,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.23723713184234352,
+                "asps": 0.0,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 6,
+              "sequence_identity": 0.13819095477386933,
+              "tm_score": 0.24109693307164262,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24109693307164262,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 7,
+              "sequence_identity": 0.1444723618090452,
+              "tm_score": 0.24393060111844633,
+              "asps": 0.14285714285714285,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.24393060111844633,
+                "asps": 0.14285714285714285,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            },
+            {
+              "variant_id": 8,
+              "sequence_identity": 0.13190954773869346,
+              "tm_score": 0.2383269565174184,
+              "asps": 0.2857142857142857,
+              "joint_evasion": true,
+              "gap_assessment": {
+                "evasive": true,
+                "structural": false,
+                "functional": false,
+                "crosses_gap": false,
+                "tm_score": 0.2383269565174184,
+                "asps": 0.2857142857142857,
+                "thresholds": {
+                  "structure_threshold": 0.5,
+                  "function_threshold": 0.7
+                }
+              }
+            }
+          ],
+          "statistics": {
+            "total_variants": 8,
+            "evasive_variants": 8,
+            "functional_variants": 0,
+            "structural_variants": 0,
+            "gap_crossing": 0,
+            "evasion_rate": 1.0,
+            "function_rate": 0.0,
+            "structure_rate": 0.0,
+            "gap_rate": 0.0
+          }
+        }
+      }
+    }
+  },
+  "family_analysis": {
+    "ribosome_inactivating": {
+      "proteins": [
+        "ricin_a",
+        "abrin_a"
+      ],
+      "count": 2,
+      "masking_rates": {
+        "85pct": {
+          "total_variants": 16,
+          "evasion_rate": 0.75,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "total_variants": 16,
+          "evasion_rate": 1.0,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_rate": 0.0
+        }
+      }
+    },
+    "neurotoxin": {
+      "proteins": [
+        "botox_a",
+        "tetx",
+        "latrotoxin"
+      ],
+      "count": 3,
+      "masking_rates": {
+        "85pct": {
+          "total_variants": 24,
+          "evasion_rate": 0.20833333333333334,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_rate": 0.0
+        },
+        "90pct": {
+          "total_variants": 24,
+          "evasion_rate": 0.9166666666666666,
+          "function_rate": 0.0,
+          "structure_rate": 0.0,
+          "gap_rate": 0.0
+        }
+      }
+    }
+  }
+}

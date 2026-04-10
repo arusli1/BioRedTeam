@@ -1,0 +1,32 @@
+{
+  "experiment_metadata": {
+    "model": "ESM-2 650M",
+    "total_proteins": 5,
+    "total_variants": 300,
+    "masking_rates": [
+      0.1,
+      0.3,
+      0.5,
+      0.7
+    ],
+    "masking_strategies": [
+      "random",
+      "conservation",
+      "surface"
+    ],
+    "variants_per_config": 5,
+    "screening_tool": "BLASTP",
+    "evalue_threshold": 1e-05
+  },
+  "key_findings": {
+    "overall_evasion_rate": 0.0,
+    "best_strategy": "conservation",
+    "best_masking_rate": 0.1,
+    "most_evasive_family": "neurotoxin",
+    "mean_sequence_identity": 0.6138203220439576,
+    "identity_vs_evasion_correlation": NaN
+  },
+  "detailed_results": {
+    "overall": {
+      "total_variants": 300,
+      "evaded_variants": 
